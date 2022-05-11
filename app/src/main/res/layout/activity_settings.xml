@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+
+    <com.example.customviews.SelectColorView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:defaultColor="@color/player1Color"
+        app:nameOfSetting="First Player's color"
+        app:key="PREF_COLOR_PLAYER_1"/>
+
+    <com.example.customviews.SelectColorView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:defaultColor="@color/player2Color"
+        app:nameOfSetting="Second Player's color"
+        app:key="PREF_COLOR_PLAYER_2"/>
+
+    <com.example.customviews.SelectColorView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:defaultColor="@color/gridColor"
+        app:nameOfSetting="Grid color"
+        app:key="PREF_COLOR_GRID"/>
+
+    <Button
+        android:id="@+id/resetSettings"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/reset_settings"
+        android:layout_gravity="center"/>
+
+</LinearLayout>

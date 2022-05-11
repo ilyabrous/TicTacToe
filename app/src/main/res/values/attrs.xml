@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="SelectColorView">
+        <attr name="defaultColor" format="color" />
+        <attr name="nameOfSetting" format="string" />
+        <attr name="key" format="string" />
+    </declare-styleable>
+
+    <attr name="selectColorStyle" format="reference" />
+
+</resources>
